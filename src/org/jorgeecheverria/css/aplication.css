@@ -1,0 +1,33 @@
+.root {
+     -fx-background-color: #3f51b5;
+}
+.text-field {
+	-fx-background-color: #3f51b5;
+        -fx-border-radius: 10;
+        -fx-background-radius: 10;
+}
+.split-pane > .split-pane-divider {
+    -fx-background-color: #1428bc;
+    -fx-padding: 3 3 3 3;
+}
+#anchPane1 {
+    -fx-background-color: linear-gradient(#1936c6, #1a237e);
+    -fx-padding: 3 3 3 3;
+}
+#anchPane2 {
+    -fx-background-color: linear-gradient(#1936c6, #1a237e);
+    -fx-padding: 3 3 3 3;
+}
+
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    
+    -fx-background-color: linear-gradient(#2c539e, #1a237e);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#1a237e, #2c539e);
+}
